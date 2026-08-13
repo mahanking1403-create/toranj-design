@@ -6,53 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-        content="استودیو طراحی ترنج | طراحی پوستر، بنر، لوگو، ادیت و محتوای گرافیکی">
+        content="ترنج دیزاین | طراحی حرفه‌ای پوستر، بنر، لوگو، ادیت و تولید محتوای حرفه‌ای">
 
-    <meta name="theme-color" content="#111111">
-
-    <title>ترنج دیزاین | استودیو طراحی ترنج</title>
+    <title>ترنج دیزاین | Toranj Design</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+    <!-- نور دنبال کننده موس و لمس -->
+    <div class="mouse-light"></div>
 
+    <!-- ستاره‌های پس‌زمینه -->
+    <div class="stars"></div>
+    <div class="stars stars2"></div>
+    <div class="stars stars3"></div>
+
+    <!-- HEADER -->
     <header class="header">
 
         <div class="container nav">
 
-            <a class="logo" href="#home">
+            <a href="#home" class="logo">
 
-                <span class="logo-icon">T</span>
+                <!-- اگر لوگوی خودت را داری اسم فایل را logo.png بگذار -->
+                <div class="logo-symbol">T</div>
 
-                <div>
+                <div class="logo-text">
                     <strong>ترنج</strong>
-                    <small>DESIGN</small>
+                    <span>DESIGN</span>
                 </div>
 
             </a>
 
-
             <nav class="menu">
 
                 <a href="#home">خانه</a>
-
                 <a href="#services">خدمات</a>
-
                 <a href="#portfolio">نمونه‌کارها</a>
-
-                <a href="#order">سفارش آنلاین</a>
-
                 <a href="#about">درباره ما</a>
-
                 <a href="#contact">ارتباط با ما</a>
 
             </nav>
 
-
-            <a class="nav-button" href="#order">
+            <a href="#contact" class="nav-button">
                 ثبت سفارش
             </a>
 
@@ -61,460 +59,381 @@
     </header>
 
 
+    <!-- HERO -->
+    <section id="home" class="hero">
 
-    <!-- ================= HERO ================= -->
+        <div class="container hero-content">
 
-    <main>
+            <div class="hero-badge">
+                ✦ طراحی خلاقانه و حرفه‌ای ✦
+            </div>
 
-        <section class="hero" id="home">
+            <h1>
+                ایده‌ات را
+                <span>به تصویر</span>
+                تبدیل کن.
+            </h1>
 
-            <div class="container hero-content">
+            <p>
+                ترنج دیزاین؛ طراحی حرفه‌ای پوستر، بنر، لوگو،
+                محتوای شبکه‌های اجتماعی و طراحی‌های اختصاصی
+                برای برندها و کسب‌وکارها.
+            </p>
 
-                <div class="badge">
-                    ✦ طراحی خلاقانه و حرفه‌ای
+            <div class="hero-buttons">
+
+                <a href="#contact" class="primary-button">
+                    سفارش طراحی
+                </a>
+
+                <a href="#portfolio" class="secondary-button">
+                    مشاهده نمونه‌کارها
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="section">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>خدمات ما</span>
+
+                <h2>
+                    طراحی برای
+                    <b>ایده‌های خاص</b>
+                </h2>
+
+                <p>
+                    هر چیزی که برای حرفه‌ای‌تر دیده شدن نیاز داری.
+                </p>
+
+            </div>
+
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>طراحی پوستر</h3>
+                    <p>
+                        طراحی پوسترهای جذاب و حرفه‌ای
+                        برای تبلیغات و شبکه‌های اجتماعی.
+                    </p>
                 </div>
 
 
-                <h1>
-                    ایده‌ات را
-                    <span>به تصویر تبدیل کن.</span>
-                </h1>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>طراحی بنر</h3>
+                    <p>
+                        طراحی بنر تبلیغاتی مناسب
+                        برای کانال‌ها و کسب‌وکارها.
+                    </p>
+                </div>
 
+
+                <div class="service-card">
+                    <div class="service-icon">💎</div>
+                    <h3>طراحی لوگو</h3>
+                    <p>
+                        طراحی لوگوی اختصاصی و حرفه‌ای
+                        متناسب با هویت برند شما.
+                    </p>
+                </div>
+
+
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>طراحی محتوای شبکه‌های اجتماعی</h3>
+                    <p>
+                        طراحی پست، استوری و محتوای
+                        حرفه‌ای برای شبکه‌های اجتماعی.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section portfolio">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>نمونه کارها</span>
+
+                <h2>
+                    کارهای ما را
+                    <b>ببینید</b>
+                </h2>
 
                 <p>
-                    استودیو طراحی ترنج؛ ارائه‌دهنده خدمات طراحی پوستر،
-                    بنر، لوگو، ادیت و محتوای حرفه‌ای برای برندها،
-                    کسب‌وکارها و شبکه‌های اجتماعی.
+                    نمونه‌کارهای ترنج دیزاین در کانال‌های ما قرار می‌گیرند.
+                </p>
+
+            </div>
+
+
+            <div class="portfolio-box">
+
+                <div class="portfolio-icon">
+                    🖼️
+                </div>
+
+                <h3>
+                    مشاهده نمونه‌کارها
+                </h3>
+
+                <p>
+                    برای مشاهده نمونه‌کارهای ما می‌توانید
+                    وارد ایتا، تلگرام یا واتساپ شوید.
+                    <br>
+                    <strong>ترجیحاً ایتا</strong>
                 </p>
 
 
-                <div class="hero-buttons">
+                <div class="social-links">
 
-                    <a href="#order" class="primary-button">
-                        سفارش طراحی ←
+                    <a href="https://eitaa.com/toranj_studio"
+                       target="_blank"
+                       class="social eitaa">
+                        ایتا
+                        <small>@toranj_studio</small>
                     </a>
 
 
-                    <a href="#portfolio" class="secondary-button">
-                        مشاهده نمونه‌کارها
+                    <a href="https://t.me/toranj_studio1"
+                       target="_blank"
+                       class="social telegram">
+                        تلگرام
+                        <small>@toranj_studio1</small>
                     </a>
 
                 </div>
 
+            </div>
 
-                <!-- آمار -->
+        </div>
 
-                <div class="stats">
+    </section>
 
-                    <div class="stat">
 
-                        <strong>100+</strong>
+    <!-- ABOUT -->
+    <section id="about" class="section about">
 
-                        <span>
-                            پروژه طراحی
-                        </span>
+        <div class="container">
 
+            <div class="section-title">
+
+                <span>درباره ما</span>
+
+                <h2>
+                    داستان
+                    <b>ترنج دیزاین</b>
+                </h2>
+
+            </div>
+
+
+            <div class="about-box">
+
+                <div class="about-logo">
+                    T
+                </div>
+
+                <div class="about-text">
+
+                    <h3>
+                        ترنج دیزاین
+                    </h3>
+
+                    <p>
+                        چنل ما از یک ادمین و مالک تشکیل شده.
+                        ما کلی دوره هوش مصنوعی و ادیت رو تجربه کردیم
+                        و خواستیم برای مردم کشورمون خدمت‌رسانی کنیم
+                        و این شد که استودیو طراحی ترنج ساخته شد.
+                    </p>
+
+                    <div class="about-line"></div>
+
+                    <p class="about-highlight">
+                        هدف ما ارائه طراحی‌های خلاقانه،
+                        حرفه‌ای و باکیفیت است.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+
+        <div class="container">
+
+            <div class="section-title">
+
+                <span>ارتباط با ما</span>
+
+                <h2>
+                    برای سفارش
+                    <b>با ما در ارتباط باشید</b>
+                </h2>
+
+                <p>
+                    برای ثبت سفارش یا دریافت اطلاعات بیشتر
+                    می‌توانید با ما تماس بگیرید.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <a href="tel:09027440366" class="contact-card">
+
+                    <div class="contact-icon">
+                        📞
                     </div>
 
-
-                    <div class="stat">
-
-                        <strong>24/7</strong>
-
-                        <span>
-                            ثبت سفارش
-                        </span>
-
+                    <div>
+                        <span>شماره تماس</span>
+                        <strong>09027440366</strong>
                     </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= SERVICES ================= -->
-
-        <section id="services" class="section">
-
-            <h2>
-                خدمات ما
-            </h2>
-
-
-            <div class="cards">
-
-
-                <div class="card">
-
-                    <h3>
-                        🎨 طراحی پوستر
-                    </h3>
-
-                    <p>
-                        طراحی پوسترهای تبلیغاتی، مناسبتی و حرفه‌ای
-                        برای استفاده در شبکه‌های اجتماعی.
-                    </p>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        🖼️ طراحی بنر
-                    </h3>
-
-                    <p>
-                        طراحی بنرهای جذاب و حرفه‌ای برای تبلیغات
-                        و معرفی محصولات و خدمات.
-                    </p>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        ✏️ طراحی لوگو
-                    </h3>
-
-                    <p>
-                        طراحی لوگوی اختصاصی و خلاقانه برای برند
-                        و کسب‌وکار شما.
-                    </p>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        📱 طراحی شبکه‌های اجتماعی
-                    </h3>
-
-                    <p>
-                        طراحی پست، استوری، کاور و محتوای گرافیکی
-                        برای شبکه‌های اجتماعی.
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= PORTFOLIO ================= -->
-
-        <section id="portfolio" class="section">
-
-            <h2>
-                نمونه‌کارها
-            </h2>
-
-
-            <p>
-                برای مشاهده نمونه‌کارهای استودیو طراحی ترنج،
-                می‌توانید به کانال‌های ما در ایتا، تلگرام و واتساپ
-                مراجعه کنید.
-            </p>
-
-
-            <p style="margin-top:20px;">
-
-                <strong>
-                    ⭐ ترجیحاً ایتا
-                </strong>
-
-            </p>
-
-
-            <div class="cards">
-
-
-                <div class="card">
-
-                    <h3>
-                        🟢 ایتا
-                    </h3>
-
-                    <p>
-                        مشاهده نمونه‌کارها و فعالیت‌های ترنج
-                    </p>
-
-                    <p>
-                        @toranj_studio
-                    </p>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        🔵 تلگرام
-                    </h3>
-
-                    <p>
-                        مشاهده نمونه‌کارها و فعالیت‌های ترنج
-                    </p>
-
-                    <p>
-                        @toranj_studio1
-                    </p>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        🟢 واتساپ
-                    </h3>
-
-                    <p>
-                        کانال واتساپ ترنج نیز برای اطلاع‌رسانی
-                        و انتشار فعالیت‌ها فعال است.
-                    </p>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= ORDER ================= -->
-
-        <section id="order" class="section order">
-
-            <h2>
-                سفارش آنلاین
-            </h2>
-
-
-            <p>
-                برای سفارش طراحی و دریافت اطلاعات بیشتر،
-                می‌توانید از طریق شماره‌های ارتباطی ما با
-                ادمین و مالک استودیو در ارتباط باشید.
-            </p>
-
-
-            <div class="cards">
-
-
-                <div class="card">
-
-                    <h3>
-                        📞 شماره اول
-                    </h3>
-
-                    <p>
-                        09027440366
-                    </p>
-
-                    <a href="tel:09027440366">
-                        تماس
-                    </a>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        📞 شماره دوم
-                    </h3>
-
-                    <p>
-                        09377519616
-                    </p>
-
-                    <a href="tel:09377519616">
-                        تماس
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= ABOUT ================= -->
-
-        <section id="about" class="section">
-
-            <h2>
-                درباره ما
-            </h2>
-
-
-            <p>
-
-                چنل ما از یک ادمین و مالک تشکیل شده.
-                ما کلی دوره هوش مصنوعی و ادیت رو تجربه کردیم
-                و خواستیم برای مردم کشورمون خدمت‌رسانی کنیم
-                و این شد که استودیو طراحی ترنج ساخته شد.
-
-            </p>
-
-
-            <p style="margin-top:25px;">
-
-                هدف ما ارائه طراحی‌های خلاقانه، حرفه‌ای و
-                باکیفیت برای شماست.
-
-            </p>
-
-        </section>
-
-
-
-        <!-- ================= CONTACT ================= -->
-
-        <section id="contact" class="section">
-
-            <h2>
-                ارتباط با ما
-            </h2>
-
-
-            <p>
-                برای سفارش، مشاوره و ارتباط با ادمین و مالک
-                استودیو طراحی ترنج با ما تماس بگیرید.
-            </p>
-
-
-            <div class="cards">
-
-
-                <div class="card">
-
-                    <h3>
-                        📱 شماره تماس
-                    </h3>
-
-                    <p>
-                        09027440366
-                    </p>
-
-                    <a href="tel:09027440366">
-                        تماس با ما
-                    </a>
-
-                </div>
-
-
-
-                <div class="card">
-
-                    <h3>
-                        📱 شماره تماس
-                    </h3>
-
-                    <p>
-                        09377519616
-                    </p>
-
-                    <a href="tel:09377519616">
-                        تماس با ما
-                    </a>
-
-                </div>
-
-
-            </div>
-
-        </section>
-
-
-
-        <!-- ================= SOCIAL ================= -->
-
-        <section class="section">
-
-            <h2>
-                شبکه‌های اجتماعی
-            </h2>
-
-
-            <p>
-                ما در ایتا، تلگرام و واتساپ فعالیت داریم.
-                برای مشاهده نمونه‌کارها و آخرین فعالیت‌های
-                ترنج می‌توانید به کانال‌های ما مراجعه کنید.
-            </p>
-
-
-            <div class="hero-buttons"
-                style="justify-content:center; margin-top:35px;">
-
-
-                <a
-                    class="primary-button"
-                    href="https://eitaa.com/toranj_studio"
-                    target="_blank">
-
-                    ایتا
 
                 </a>
 
 
-                <a
-                    class="secondary-button"
-                    href="https://t.me/toranj_studio1"
-                    target="_blank">
+                <a href="tel:09377519616" class="contact-card">
 
-                    تلگرام
+                    <div class="contact-icon">
+                        📞
+                    </div>
+
+                    <div>
+                        <span>شماره تماس</span>
+                        <strong>09377519616</strong>
+                    </div>
 
                 </a>
 
+            </div>
+
+
+            <div class="social-contact">
+
+                <h3>
+                    ما را در شبکه‌های اجتماعی دنبال کنید
+                </h3>
+
+                <p>
+                    در تلگرام، ایتا و واتساپ کانال داریم.
+                </p>
+
+
+                <div class="social-links">
+
+                    <a href="https://eitaa.com/toranj_studio"
+                       target="_blank"
+                       class="social eitaa">
+                        ایتا
+                        <small>@toranj_studio</small>
+                    </a>
+
+
+                    <a href="https://t.me/toranj_studio1"
+                       target="_blank"
+                       class="social telegram">
+                        تلگرام
+                        <small>@toranj_studio1</small>
+                    </a>
+
+                </div>
 
             </div>
 
-        </section>
+        </div>
+
+    </section>
 
 
-    </main>
-
-
-
-    <!-- ================= FOOTER ================= -->
-
+    <!-- FOOTER -->
     <footer>
 
-        <p>
-            © 2026 Toranj Design
-        </p>
+        <div class="container">
 
+            <div class="footer-logo">
+                ترنج <span>DESIGN</span>
+            </div>
 
-        <p>
-            استودیو طراحی ترنج
-        </p>
+            <p>
+                © 2026 Toranj Design Studio
+            </p>
 
+            <p>
+                طراحی خلاقانه، حرفه‌ای و متفاوت
+            </p>
 
-        <p>
-            @toranj_studio
-        </p>
+            <div class="footer-social">
+                @toranj_studio
+            </div>
+
+        </div>
 
     </footer>
 
 
-</body>
+    <!-- JAVASCRIPT -->
+    <script>
 
+        const light = document.querySelector(".mouse-light");
+
+        document.addEventListener("mousemove", function (e) {
+
+            light.style.left = e.clientX + "px";
+            light.style.top = e.clientY + "px";
+
+        });
+
+
+        document.addEventListener("touchmove", function (e) {
+
+            const touch = e.touches[0];
+
+            light.style.left = touch.clientX + "px";
+            light.style.top = touch.clientY + "px";
+
+        }, { passive: true });
+
+
+        document.addEventListener("touchstart", function (e) {
+
+            const touch = e.touches[0];
+
+            light.style.left = touch.clientX + "px";
+            light.style.top = touch.clientY + "px";
+
+        }, { passive: true });
+
+    </script>
+
+</body>
 </html>
